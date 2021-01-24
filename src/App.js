@@ -1,8 +1,9 @@
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div><p>Hello World!</p></div>
-  );
+class App extends Component {
+  render() {
+    return <input type="text" onClick={() => {console.log("I am clicked!")}}/>;
+  }
 }
 
 export default App;
